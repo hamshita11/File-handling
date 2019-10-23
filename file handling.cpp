@@ -3,13 +3,12 @@
 #include<string.h>
 main()
 {char name[50];
-int n=5;
 int age;
 int roll;
 int i;
 FILE *fp;
 fp=fopen("anime.txt","w+");
-for(i=0;i<=n;i++)
+for(i=0;i<=5;i++)
 {printf("\nName: ");
 scanf("%s",&name);
 fprintf(fp,"%s",name);
